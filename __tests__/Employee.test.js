@@ -5,25 +5,25 @@ test("creates an employee object", () => {
 
   expect(employee.name).toBe("Jen");
   expect(employee.id).toBe("4");
-  expect(employee.email).toBe( "admin@admin.com");
+  expect(employee.email).toBe("admin@admin.com");
 });
 
-// test("get emoloyee name as a new object", () => {
-//   const emoloyee = new emoloyee("jen");
+// test("get employee name as a new object", () => {
+//   const employee = new Employee("jen");
 //   expect(employee.getName).toHaveProperty("name");
 // });
 
-// test("get emoloyee id as a new object", () => {
-//   const emoloyee = new emoloyee("jen");
+// test("get employee id as a new object", () => {
+//   const employee = new Employee("jen");
 //   expect(employee.getID).toHaveProperty("id");
 // });
 
-// test("get emoloyee email as a new object", () => {
-//   const emoloyee = new emoloyee("jen");
+// test("get employee email as a new object", () => {
+//   const employee = new employee("jen");
 //   expect(employee.getEmail).toHaveProperty("email");
 // });
 
-// test("get emoloyee role as a new object", () => {
-//   const emoloyee = new emoloyee("jen");
+// test("get employee role as a new object", () => {
+//   const employee = new employee("jen");
 //   expect(employee.getRole).toHaveProperty("role");
 // });
