@@ -25,5 +25,5 @@ test("get emoloyee email as a new object", () => {
 
 test("get emoloyee role as a new object", () => {
   const emoloyee = new emoloyee("jen");
-  expect(employee.geRoleD).toHaveProperty("role");
+  expect(employee.getRole).toHaveProperty("role");
 });
